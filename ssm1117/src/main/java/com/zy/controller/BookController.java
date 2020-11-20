@@ -99,6 +99,7 @@ public class BookController {
     */
     public void uploadImage(MultipartFile upload, HttpServletRequest request) throws IOException {
         InputStream in = upload.getInputStream();
+        System.out.println("111");
     }
 
 
